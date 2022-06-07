@@ -29,7 +29,9 @@ jobs:
       - name: Install dependencies
         run: |
           if (Test-Path -Path .github\bedrock-server-action-debug.exe -PathType Leaf) {
-            .github\bedrock-server-action-debug.exe /T:${GITHUB_WORKSPACE}\bds
+            $curDir = Split-Path (Get-Location)
+            echo $curDir\bds
+            .github\bedrock-server-action-debug.exe /T:$curDir\bds
           } else {
             echo cannot find installer
             exit 1
