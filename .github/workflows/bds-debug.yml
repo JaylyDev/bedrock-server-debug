@@ -6,6 +6,8 @@ jobs:
   ## Windows tests
   Windows:
     runs-on: windows-latest
+    defaults:
+      working-directory: ./
     strategy:
       matrix:
         ## Fetch BDS versions via Wayback Machine: https://web.archive.org/web/*/https://www.minecraft.net/en-us/download/server/bedrock
@@ -48,7 +50,6 @@ jobs:
           curl --output bedrock_server.zip https://minecraft.azureedge.net/bin-win/bedrock-server-${{ matrix.minecraft-version }}.zip
           python ./bds/extract.pyc
           node bds/startServer.js -write=false -ignoreConfig
-        working-directory: ./
 
       - name: Copy Minecraft packs
         run: python ./bds/copy.pyc
