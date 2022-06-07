@@ -56,7 +56,7 @@ jobs:
 
       ## BDS
       - name: Start Bedrock Server
-        run: : node bds/startServer.js
+        run: node bds/startServer.js
       
       - name: Content log check
         run: node bds/contentlog.js
