@@ -1,0 +1,9 @@
+{
+  "behavior_packs": null,
+  "resource_packs": null,
+  "world": null,
+  "server-uptime": 0,
+  "serverInitialize": {
+    "commands": []
+  }
+}

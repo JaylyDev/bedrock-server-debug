@@ -1,0 +1,1 @@
+module.exports={getTime:function(){const e=new Date;return[e.getHours(),e.getMinutes(),e.getSeconds()].map((e=>e<10?"0"+e:e)).join(":")+"."+e.getMilliseconds()},sleep:async function(e){return new Promise((t=>{setTimeout(t,e)}))}};
