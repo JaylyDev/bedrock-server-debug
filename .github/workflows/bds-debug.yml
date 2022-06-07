@@ -28,14 +28,6 @@ jobs:
       ## Start installing
       - name: Install dependencies
         run: |
-          if (Test-Path -Path .github\bedrock-server-action-debug.exe -PathType Leaf) {
-            $curDir = Split-Path (Get-Location)
-            echo $curDir\bds
-            .github\bedrock-server-action-debug.exe /T:$curDir\bds
-          } else {
-            echo cannot find installer
-            exit 1
-          }
           npm install
           if (Test-Path -Path requirements.txt -PathType Leaf) {
             python -m pip install --upgrade pip
