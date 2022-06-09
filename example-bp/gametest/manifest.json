@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "mcfunction",
+    "description": "mcfunction",
+    "uuid": "8173ec5d-fc25-4cd6-97aa-679457f8fd12",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 17, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "383e9a11-30f5-4875-838c-5f750f8a2590",
+      "version": [1, 0, 0]
+    }
+  ]
+}

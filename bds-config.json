@@ -1,9 +1,12 @@
 {
-  "behavior_packs": null,
+  "behavior_packs": "example-bp",
   "resource_packs": null,
-  "world": null,
-  "server-uptime": 0,
+  "world": "example-world",
+  "server-uptime": 10,
   "serverInitialize": {
-    "commands": []
+    "commands": [
+      "gametest runset",
+      "say hello"
+    ]
   }
 }
