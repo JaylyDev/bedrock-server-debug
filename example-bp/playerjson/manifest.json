@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "playerjson.description",
+    "name": "playerjson.name",
+    "uuid": "b1fb96a9-4397-41e7-9f30-918fb5680dd5",
+    "version": [1, 18, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "description": "playerjson.description",
+      "type": "data",
+      "uuid": "a51f7f0f-50f3-49e5-9430-ebf2a4cef2f1",
+      "version": [0, 0, 1]
+    }
+  ]
+}
