@@ -5,5 +5,12 @@
   "server-uptime": 0,
   "serverInitialize": {
     "commands": []
-  }
+  },
+  "gametest_modules": [
+    "mojang-gametest",
+    "mojang-minecraft",
+    "mojang-minecraft-ui",
+    "mojang-minecraft-server-admin",
+    "mojang-net"
+  ] 
 }
