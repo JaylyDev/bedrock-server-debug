@@ -1,5 +1,5 @@
 {
-  "behavior_packs": null,
+  "behavior_packs": "bp",
   "resource_packs": null,
   "world": null,
   "server-uptime": 0,
